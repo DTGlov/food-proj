@@ -1,0 +1,599 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-header{
+    height: 112px;
+    background: white;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-right{
+    display: none;
+}
+
+
+.bella-logo{
+   width: 80%; 
+}
+.fa-bars{
+    color: #737373;
+}
+
+.nav-responsive{
+color: white;
+background:rgba(80, 71, 71, 0.9) ;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 2.8em;
+position: absolute;
+left: 0;
+right: 0;
+font-family: 'Montserrat';
+}
+.nav-responsive p{
+  margin-top: 0.8em;
+  font-size: 18px;
+}
+.hidden{
+  display: none;
+}
+
+.homey{
+    color: #FA4A0C;
+}
+
+.hero-section{
+ background: #FAFAFA;
+ height: 778px;
+}
+
+.hero-container{
+font-family:'Montserrat',sans-serif;
+width: 90%;
+margin: 0 auto;
+padding-top: 50px;
+}
+
+.hero-head{
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
+}
+
+.hero-para{
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 43px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #252B42;
+margin-top: 17px;
+}
+.hero-d-para{
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+margin-top: 27px;
+color: #737373;
+}
+.hero-btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.playstore-btn{
+    display: block;
+    height: 68px;
+width: 236px;
+border-radius: 30px;
+padding: 16px, 0px, 16px, 0px;
+font-family: Montserrat;
+border: none;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.10000000149011612px;
+background: #FA4A0C;
+color: white;
+}
+
+.appstore-btn{
+    display: block;
+    height: 68px;
+width: 236px;
+border-radius: 30px;
+padding: 16px, 0px, 16px, 0px;
+font-family: inherit;
+border: none;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+font-family: Montserrat;
+letter-spacing: 0.10000000149011612px;
+background: white;
+border:1px solid #FA4A0C ;
+color: #FA4A0C;
+margin-top: 17px;
+}
+
+.mobile-img-wrapper{
+    /* padding: 0.em; */
+    /* position: relative; */
+    position: absolute;
+    top: 600px;
+}
+.mobile-img{
+    width: 100%;
+}
+
+
+.works{
+    margin-top: 350px;
+}
+
+.works-para{
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
+}
+
+.border{
+    width: 100%;
+    height: 2px;
+    background: rgb(214, 204, 204);
+    margin-top: 49px;
+}
+
+.create-con{
+    width: 90%;
+    margin: 0 auto 100px;
+}
+.item-con{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.con{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center; 
+}
+
+.item-head{
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
+color: #FA4A0C;
+}
+.item-para{
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+margin-top: 40px;
+}
+
+.item-para-sec{
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+margin-top: 50px;
+color: #737373;
+}
+
+.item-fig{
+    /* width: 100%; */
+    display: flex;
+justify-content: center;
+margin-top: 40px;
+/* box-shadow: 11px 9px 5px 10px rgba(245,245,245,0.75);
+-webkit-box-shadow: 11px 9px 5px 10px rgba(245,245,245,0.75);
+-moz-box-shadow: 11px 9px 5px 10px rgba(245,245,245,0.75); */
+}
+
+.download-section{
+    height: 564px;
+    background: #252B42;
+
+}
+
+.download-para{
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: white;
+padding-top: 120px;
+}
+
+.download-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.download-para-sec{
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #BDBDBD;
+margin-top: 20px;
+}
+
+.down-btn{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buy-now-btn{
+    height: 64px;
+width: 137px;
+border-radius: 10px;
+padding: 18px, 31px, 18px, 31px;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+border: none;
+letter-spacing: 0.20000000298023224px;
+background: #FA4A0C;
+color: white;
+}
+
+.try-btn{
+    height: 60px;
+width: 186px;
+border-radius: 10px;
+padding: 16px, 45px, 16px, 45px;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0.20000000298023224px;
+border: 1px solid white;
+background: #252B42;
+color: white;
+}
+
+
+.footer-section{
+    background: white;
+}
+
+.footer-container{
+    width: 90%;
+    height: 100px;
+    margin: 2em auto 0;
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.icon{
+    width: 38px;
+    margin-right: 33px;
+}
+.icon-para{
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
+margin-top: 8px;
+}
+.down-big{
+    display: none;
+}
+
+.hero-btnss{
+    display: none;
+}
+
+.foot{
+    display: none;
+}
+
+@media only screen and (min-width: 992px) {
+.nav-right{
+    display: block;
+}
+.nav-list-wrapper{
+  list-style-type: none;
+  color: var(--white-text-color);
+  display: flex;
+}
+.bars{
+    display: none;
+}
+.nav-list-wrapper li{
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0.20000000298023224px;
+/* text-align: center; */
+margin-right: 70px;
+}
+.home{
+    color: #FA4A0C;
+}
+.hero-section{
+    background: white;
+}
+.hero-container{
+height: 550px;
+  width: 100%;
+  background-image: url('./assets/big-hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-head{
+    color: white;
+    font-size:24px;
+}
+.hero-para{
+    /* /* height: 160px; */
+width: 937px; 
+margin: auto;
+font-family: Poppins;
+font-size: 58px;
+font-style: normal;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: white;
+margin-top:17px;
+}
+.hero-d-para{
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #F6F6F6;
+}
+.hero-btns{
+    flex-direction: row;
+    justify-content: center;
+}
+.playstore-btn{
+    margin-right: 34px;
+}
+.appstore-btn{
+    margin-top: 0em;
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+.mobile-img-wrapper{
+    /* display: flex;
+    justify-content: center; */
+    left: 500px;
+    top: 400px;
+}
+.mobile-img{
+    
+}
+.works{
+    margin-top: 30px;
+}
+
+.border-big{
+    width: 30%;
+    height: 2px;
+    background: rgb(214, 204, 204);
+    margin-top: 49px;
+    margin: auto;
+     margin-top: 200px;
+}
+.border{
+    display: none;
+}
+.item-con{
+flex-direction: row-reverse;
+width: 90%;
+margin: 2em auto;
+/* border: 1px solid red; */
+/* justify-content: space-between; */
+align-items: center;
+}
+.item-text{
+    width: 50%;
+}
+.item-fig{
+    width: 50%;
+    margin-right: 7em;
+}
+
+.item-head{
+    text-align: left;
+    font-size: 24px;
+}
+.item-para{
+    text-align: left;
+    margin-top: 17px;
+    line-height: 57px;
+    font-size: 40px;
+}
+.item-para-sec{
+    font-size: 24px;
+    margin-top: 17px;
+    text-align: left;
+}
+.download-section{
+height: 450px;
+  width: 100%;
+  background-image: url('./assets/down-banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.download-para{
+    font-size: 40px;
+}
+.download-para-sec{
+    display: none;
+}
+.down-btn{
+    display: none;
+}
+.down-big{
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: white;
+display: block;
+}
+.hero-btnss{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    /* margin: auto; */
+}
+.playstore-btns{
+    display: block;
+height: 64px;
+width: 142px;
+border-radius: 10px;
+padding: 16px, 0px, 16px, 0px;
+font-family: Montserrat;
+border: none;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.10000000149011612px;
+background: #FA4A0C;
+color: white;
+margin-right: 10px;
+}
+
+.appstore-btns{
+    display: block;
+height: 64px;
+width: 142px;
+border-radius: 10px;
+padding: 16px, 0px, 16px, 0px;
+font-family: inherit;
+border: none;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+font-family: Montserrat;
+letter-spacing: 0.10000000149011612px;
+border:1px solid white;
+background: none;
+color: white;
+}
+.footer-container{
+    display: none;
+}
+.foot{
+    display: flex;
+    width: 80%;
+    margin: 2em auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot-para{
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0.10000000149011612px;
+text-align: right;
+
+}
+.con{
+    flex-direction: row-reverse;
+    width: 90%;
+    margin: 2em auto;
+    /* border: 1px solid red; */
+}
+
+.con-text{
+    padding-left: 7em;
+    width: 100%;
+}
+.con-textt{
+    padding-left: -30em;
+    width: 80%;
+}
+.figg{
+    /* margin-left: 3em; */
+}
+.mob2{
+    width: 60%;
+}
+.mob{
+    width: 50%;
+}
+.nav-responsive{
+    display: none;
+}
+}
